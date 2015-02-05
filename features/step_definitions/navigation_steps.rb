@@ -11,7 +11,7 @@ Then(/^I should (?:find|see|observe) "(.*?)" on the page$/) do |text|
 end
 
 Given(/^I (?:visit|am on) the "(.*?)" page$/) do |page|
-  visit("http://intent-pizza.internal.intentmedia.net:8080/#{page}")
+  visit("http://testpizzaurl.net:8080/#{page}")
 end
 
 And(/^I click the "(.*?)" link$/) do |linktext|
